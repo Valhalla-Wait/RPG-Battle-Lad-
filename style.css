@@ -1,0 +1,100 @@
+*{
+  background-color: #191919;
+  font-family:'Courier New', Courier, monospace;
+}
+body {
+  color: #bdc1c6;
+  text-align: center;
+
+
+}
+.wrapper {  
+  /* display: inline-block; */
+  display: none;
+}
+/* .start_menu {
+
+} */
+
+.player {
+  float: left;
+}
+.monster {
+  float: left;
+}
+
+#menu_btn {
+  width: 20%;
+  height: 60px;
+  border: solid 1px gray;
+  border-radius: 20px;
+  color: #8ab4f8;
+  font-size: 20px;
+   
+}
+#menu_btn:hover{
+  border: solid 3px gray;
+}
+
+select, option {
+  background-color:#bdc1c6;
+  width: 200px;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  margin-top: 350px;
+}
+
+
+.choice_column {
+  margin: 20px;
+  border: solid 1px gray;
+  border-radius: 20px;
+}
+
+.choice{
+  display: inline-block;
+}
+.choice_list {
+  margin: 20px;
+  text-align: left;
+  font-size: 25px;
+  
+}
+
+.wrapper_el {
+  display: inline-block;
+}
+
+.halth {
+  margin: 30px;
+  display: inline-block;
+  font-size: 20px;
+}
+.game_btn {
+  margin-bottom: 20px;
+  color: #bdc1c6;
+  border: solid 1px gray;
+  font-size: 25px;
+  /* background-color: red; */
+}
+.game_btn:hover{
+  background-color: #bdc1c6;
+  color: #191919;
+}
+
+.move {
+  display: inline-block;
+  background-color: #bdc1c6;
+  margin: 1px
+}
+
+.move p {
+  background-color: #bdc1c6;
+  color: #191919;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}

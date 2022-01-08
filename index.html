@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="start_menu">
+    <h1>RPG Battle</h1>
+    <form id="choose_difficult">
+      <select id="difficult">
+        <option value="10">Легко</option>
+        <option value="9">Нормально</option>
+        <option value="8">Сложно</option>
+      </select><br>
+      <input type="submit" id="menu_btn" value="Play">
+    </form>
+  </div>
+  <div class="wrapper">
+    <div class="inf_attack">
+      <h2>Характеристики действий игрока</h2>
+  
+    </div>
+    <div class="player">
+      <div class="halth">
+        Здоровье игрока: <span id='player_helth'></span>
+      </div>
+      <h2>Выбор игрока:</h2>
+      <div class="choice_column">
+        <div class="choice_list" id='player'>
+        </div>
+      </div>
+    </div>
+
+    <div class="monster">
+      <div class="halth">
+        Здоровье монстра: <span id='monster_helth'></span>
+      </div>
+      <h2>Выбор монстра:</h2>
+      <div class="choice_column">
+        <div class="choice_list" id='monster'>
+        
+        </div>
+      </div>
+    </div>
+      
+    
+  </div>
+  
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
